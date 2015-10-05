@@ -1,0 +1,18 @@
+{
+   "content_scripts": [ {
+      "css": [ "shCore.css", "shThemeDefault.css" ],
+      "js": [ "jquery-1.11.3.min.js", "shCore.js", "shAutoloader.js", "shBrushCpp.js", "run.js" ],
+      "matches": [ "http://www.vexforum.com/*", "https://www.vexforum.com/*" ]
+   } ],
+   "description": "This extension is the dark themed version of the vexforum code syntax highlighter. ",
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png",
+      "48": "icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA57YfkbYNtdirn7fGXZsn+mqVaUS9M6cHmYChOQHJm0qygjdtqD5DMNBmAlw4FH/KMJwnsQGFAM+s0T3DEGm1LJm6Y6PvaLU3FbFSFfu9sf3ktUx6V/pKlZs4VlLNnvfwgM9HGWNcMfx4eqQxWvc1K50FCKswWM1blQRdvgeSvejTZ7uBhxEj66tGp7tW3waFHAZh6dR0/iRAf9W0rGrsY+D25pgpA8CcCkbJCqZtPpkHPs5m3eOVggRBi993Jky1MVJGgaZ2GcXt7Og0S5BMt/Sm0jNw7LdjRtWfQGRvBMPeyIimNQ7zay23Gf81CBjKzE8lmGoy92g0BALt7pyRkwIDAQAB",
+   "manifest_version": 2,
+   "name": "Dark VEXForum Syntax Highlighter",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.4"
+}
